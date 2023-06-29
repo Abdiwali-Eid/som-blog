@@ -29,7 +29,7 @@ const Home = () => {
         <nav class="navigation">
           <a href="#services">Services</a>
           <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          {/* <a href="#contact">Contact</a> */}
         </nav>
       </header>
       <section class="main">
