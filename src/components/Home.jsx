@@ -1,8 +1,8 @@
 import React from 'react';
-import work1 from './/../images/work1.jpg';
-import work2 from './/../images/work2.jpg';
-import work3 from './/../images/work3.jpg';
-import work4 from './/../images/work4.jpg';
+import work1 from './/../images/sombooks.PNG';
+import work2 from './/../images/workouts.PNG';
+import work3 from './/../images/pharmcy.PNG';
+import work4 from './/../images/filantechs.PNG';
 import work5 from './/../images/work5.jpg';
 import work6 from './/../images/work6.jpg';
 import { BsLinkedin } from 'react-icons/bs';
@@ -44,16 +44,16 @@ const Home = () => {
             Download my CV
           </a>
           <div class="social-icons">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/abdiwali-bashir-1949701ba">
               <BsLinkedin className="i" />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/CabdiwaliBashir?t=tggaxEPlKue4NBvEmST3GQ&s=09">
               <BsTwitter className="i" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100022010565081">
               <BsFacebook className="i" />
             </a>
-            <a href="#">
+            <a href="https://github.com/Abdiwali-Eid">
               <BsGithub className="i" />
             </a>
           </div>
@@ -109,10 +109,10 @@ const Home = () => {
               <img src={work1} />
             </div>
             <div class="project-info">
-              <p class="project-category">Script Writing & Video Production</p>
+              <p class="project-category">Web Development</p>
               <strong class="project-title">
-                <span>Dev Books</span>
-                <a href="#" class="more-details">
+                <span>Som Books</span>
+                <a href="https://sombooks.vercel.app/" class="more-details">
                   More details
                 </a>
               </strong>
@@ -123,10 +123,13 @@ const Home = () => {
               <img src={work2} />
             </div>
             <div class="project-info">
-              <p class="project-category">Script Writing & Video Production</p>
+              <p class="project-category">UI/UX</p>
               <strong class="project-title">
-                <span>Dev Books</span>
-                <a href="#" class="more-details">
+                <span>Workout</span>
+                <a
+                  href="https://www.figma.com/file/N9flo21jodCODFfScXCZUQ/Untitled?type=design&node-id=0%3A1&mode=design&t=vH5stQc0jViysRBf-1"
+                  class="more-details"
+                >
                   More details
                 </a>
               </strong>
@@ -137,12 +140,12 @@ const Home = () => {
               <img src={work3} />
             </div>
             <div class="project-info">
-              <p class="project-category">Script Writing & Video Production</p>
+              <p class="project-category">Web Development</p>
               <strong class="project-title">
-                <span>Dev Books</span>
-                <a href="#" class="more-details">
+                <span>Pharmacy System</span>
+                {/* <a href="#" class="more-details">
                   More details
-                </a>
+                </a> */}
               </strong>
             </div>
           </div>
@@ -151,16 +154,19 @@ const Home = () => {
               <img src={work4} />
             </div>
             <div class="project-info">
-              <p class="project-category">Script Writing & Video Production</p>
+              <p class="project-category">UI/UX</p>
               <strong class="project-title">
-                <span>Dev Books</span>
-                <a href="#" class="more-details">
+                <span>FilanTech</span>
+                <a
+                  href="https://www.figma.com/file/jt7hOhxiPuVlJp52VYkSL3/Design-System?type=design&node-id=0%3A1&mode=design&t=5tZTz8c9NJg89jDr-1"
+                  class="more-details"
+                >
                   More details
                 </a>
               </strong>
             </div>
           </div>
-          <div class="project-card">
+          {/* <div class="project-card">
             <div class="project-image">
               <img src={work5} />
             </div>
@@ -173,8 +179,8 @@ const Home = () => {
                 </a>
               </strong>
             </div>
-          </div>
-          <div class="project-card">
+          </div> */}
+          {/* <div class="project-card">
             <div class="project-image">
               <img src={work6} />
             </div>
@@ -187,7 +193,7 @@ const Home = () => {
                 </a>
               </strong>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
