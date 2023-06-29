@@ -87,7 +87,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div class="card">
+          {/* <div class="card">
             <div class="icon">
               <SiAdobeindesign />
             </div>
@@ -98,7 +98,7 @@ const Home = () => {
                 text.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <section class="projects" id="projects">
