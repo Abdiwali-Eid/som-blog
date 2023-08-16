@@ -5,6 +5,9 @@ import work3 from './/../images/pharmcy.PNG';
 import work4 from './/../images/filantechs.PNG';
 import work5 from './/../images/work5.jpg';
 import work6 from './/../images/work6.jpg';
+import work7 from './/../images/faseex design.PNG';
+import work8 from './/../images/graphic design.PNG';
+import work9 from './/../images/quran.PNG';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
@@ -34,7 +37,7 @@ const Home = () => {
       </header>
       <section class="main">
         <div className="qoral">
-          <h2>
+          <h2  className='hello'> 
             Hello, I'm Abdiwali Eid
             <br />
             <span>FrontEnd Developer</span>
@@ -71,7 +74,7 @@ const Home = () => {
               <h3>Web design</h3>
               <p>
                 conceptualizing and implementing creative ideas for client
-                websites,
+                websites.
               </p>
             </div>
           </div>
@@ -87,7 +90,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          {/* <div class="card">
+          <div class="card">
             <div class="icon">
               <SiAdobeindesign />
             </div>
@@ -98,7 +101,7 @@ const Home = () => {
                 text.
               </p>
             </div>
-          </div> */}
+          </div>
         </div>
       </section>
       <section class="projects" id="projects">
@@ -151,6 +154,23 @@ const Home = () => {
           </div>
           <div class="project-card">
             <div class="project-image">
+              <img src={work9} />
+            </div>
+            <div class="project-info">
+              <p class="project-category">Web Development</p>
+              <strong class="project-title">
+                <span>Hifdi Quiz</span>
+                <a
+                  href="https://quran-tijaabo.vercel.app/"
+                  class="more-details"
+                >
+                  More details
+                </a>
+              </strong>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
               <img src={work4} />
             </div>
             <div class="project-info">
@@ -159,6 +179,57 @@ const Home = () => {
                 <span>FilanTech</span>
                 <a
                   href="https://www.figma.com/file/jt7hOhxiPuVlJp52VYkSL3/Design-System?type=design&node-id=0%3A1&mode=design&t=5tZTz8c9NJg89jDr-1"
+                  class="more-details"
+                >
+                  More details
+                </a>
+              </strong>
+            </div>
+          </div>
+          {/* <div class="project-card">
+            <div class="project-image">
+              <img src={work4} />
+            </div>
+            <div class="project-info">
+              <p class="project-category">UI/UX</p>
+              <strong class="project-title">
+                <span>FilanTech</span>
+                <a
+                  href="https://www.figma.com/file/jt7hOhxiPuVlJp52VYkSL3/Design-System?type=design&node-id=0%3A1&mode=design&t=5tZTz8c9NJg89jDr-1"
+                  class="more-details"
+                >
+                  More details
+                </a>
+              </strong>
+            </div>
+          </div> */}
+          <div class="project-card">
+            <div class="project-image">
+              <img src={work7} />
+            </div>
+            <div class="project-info">
+              <p class="project-category">Graphic design</p>
+              <strong class="project-title">
+                <span>Faseex</span>
+                <a
+                  href="https://github.com/Abdiwali-Eid/Faseex"
+                  class="more-details"
+                >
+                  More details
+                </a>
+              </strong>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src={work8} />
+            </div>
+            <div class="project-info">
+              <p class="project-category">Graphic design</p>
+              <strong class="project-title">
+                <span>Fast</span>
+                <a
+                  href="https://github.com/Abdiwali-Eid/Fast"
                   class="more-details"
                 >
                   More details
