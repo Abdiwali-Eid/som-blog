@@ -17,7 +17,7 @@ import { AiOutlineAntDesign } from 'react-icons/ai';
 import { SiAdobeindesign } from 'react-icons/si';
 import { BsFacebook } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
-import CV from './/../images/Abdiwallis CV (Copy).pdf';
+import CV from './/../images/Abdiwali CV.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {} from '@fortawesome/free-solid-svg-icons';
@@ -37,7 +37,7 @@ const Home = () => {
       </header>
       <section class="main">
         <div className="qoral">
-          <h2  className='hello'> 
+          <h2 className="hello">
             Hello, I'm Abdiwali Eid
             <br />
             <span>Software Developer</span>
