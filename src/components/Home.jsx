@@ -40,7 +40,7 @@ const Home = () => {
           <h2  className='hello'> 
             Hello, I'm Abdiwali Eid
             <br />
-            <span>FrontEnd Developer</span>
+            <span>Software Developer</span>
           </h2>
           {/* <h3>I build life changing courses</h3> */}
           <a href={CV} download class="main-btn">
