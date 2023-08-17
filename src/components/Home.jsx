@@ -17,7 +17,7 @@ import { AiOutlineAntDesign } from 'react-icons/ai';
 import { SiAdobeindesign } from 'react-icons/si';
 import { BsFacebook } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
-import CV from './/../images/Abdiwalis CV.pdf';
+import CV from './/../images/CV.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {} from '@fortawesome/free-solid-svg-icons';
