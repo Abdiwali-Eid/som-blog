@@ -115,7 +115,7 @@ const Home = () => {
               <p class="project-category">Web Development</p>
               <strong class="project-title">
                 <span>Som Books</span>
-                <a href="https://sombooks.vercel.app/" class="more-details">
+                <a href="https://buugaag.vercel.app/" class="more-details">
                   More details
                 </a>
               </strong>
