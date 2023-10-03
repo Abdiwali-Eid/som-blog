@@ -1,7 +1,7 @@
 import React from 'react';
 import work1 from './/../images/sombooks.PNG';
 import work2 from './/../images/workouts.PNG';
-import work3 from './/../images/pharmcy.PNG';
+import work3 from './/../images/marko.PNG';
 import work4 from './/../images/filantechs.PNG';
 import work5 from './/../images/work5.jpg';
 import work6 from './/../images/work6.jpg';
@@ -18,9 +18,11 @@ import { SiAdobeindesign } from 'react-icons/si';
 import { BsFacebook } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import CV from './/../images/Abdiwali CV.pdf';
+import Contact from './Contact';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {} from '@fortawesome/free-solid-svg-icons';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -32,6 +34,7 @@ const Home = () => {
         <nav class="navigation">
           <a href="#services">Services</a>
           <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
           {/* <a href="#contact">Contact</a> */}
         </nav>
       </header>
@@ -115,7 +118,7 @@ const Home = () => {
               <p class="project-category">Web Development</p>
               <strong class="project-title">
                 <span>Som Books</span>
-                <a href="https://buugaag.vercel.app/" class="more-details">
+                <a href="https://www.buugaag.me/" class="more-details">
                   More details
                 </a>
               </strong>
@@ -145,7 +148,7 @@ const Home = () => {
             <div class="project-info">
               <p class="project-category">Web Development</p>
               <strong class="project-title">
-                <span>Pharmacy System</span>
+                <span>Ceelka biyaha Marko</span>
                 {/* <a href="#" class="more-details">
                   More details
                 </a> */}
@@ -267,6 +270,10 @@ const Home = () => {
           </div> */}
         </div>
       </section>
+      <section id='contact'>
+        <Contact/>
+      </section>
+      <Footer/>
     </>
   );
 };
