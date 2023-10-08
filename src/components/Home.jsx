@@ -8,6 +8,7 @@ import work6 from './/../images/work6.jpg';
 import work7 from './/../images/faseex design.PNG';
 import work8 from './/../images/graphic design.PNG';
 import work9 from './/../images/quran.PNG';
+import work10 from './/../images/halgan.PNG';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
@@ -155,6 +156,21 @@ const Home = () => {
               </strong>
             </div>
           </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src={work10} />
+            </div>
+            <div class="project-info">
+              <p class="project-category">Web Development</p>
+              <strong class="project-title">
+                <span>Halgan jobs</span>
+                <a href="https://www.halganjobs.com/" class="more-details">
+                  More details
+                </a>
+              </strong>
+            </div>
+          </div>
           <div class="project-card">
             <div class="project-image">
               <img src={work9} />
@@ -270,10 +286,10 @@ const Home = () => {
           </div> */}
         </div>
       </section>
-      <section id='contact'>
-        <Contact/>
+      <section id="contact">
+        <Contact />
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 };
